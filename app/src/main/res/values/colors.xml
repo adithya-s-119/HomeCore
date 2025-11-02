@@ -1,0 +1,18 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="dark_bg">#1E293B</color>
+    <color name="card_bg">#334155</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="cyan">#06B6D4</color>
+	<color name="card_inactive">#1a1a2e</color>
+	<color name="card_stroke">#2A2A3E</color>
+	<color name="card_active">#223042</color>
+
+</resources>
