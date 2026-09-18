@@ -272,18 +272,6 @@ The supplied implementation focuses on:
 - Relay state synchronisation
 - A simple home-control UI
 
-## Setup
-
-1. Open the project in Android Studio.
-2. Make sure the Android project has the required AndroidX, Material, Kotlin Coroutines, and OkHttp dependencies.
-3. Build and install the application on an Android device or emulator.
-4. Connect the Android device to the same network as the ESP modules.
-5. Add an ESP module using its IP address and HTTP port.
-6. Add devices and assign each one to the appropriate ESP module and relay ID.
-7. Tap a device to control its relay.
-
-> The uploaded source files do not include the complete Gradle configuration or ESP firmware, so the exact dependency versions and ESP-side implementation are not specified here.
-
 ## ESP Firmware Interface
 
 The Android application expects the ESP-side HTTP interface to provide endpoints equivalent to:
