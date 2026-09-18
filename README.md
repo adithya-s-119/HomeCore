@@ -298,51 +298,6 @@ or:
 }
 ```
 
-## File Overview
-
-| File | Purpose |
-|---|---|
-| `MainActivity.kt` | Main UI, device management, relay control and polling |
-| `SectionedAdapter.kt` | Displays ESP headers and device tiles |
-| `RelayController.kt` | HTTP communication with ESP relay endpoints |
-| `DataStorage.kt` | Local persistence using SharedPreferences and JSON |
-| `ESPModule.kt` | ESP module data model |
-| `Device.kt` | Device data model |
-| `DeviceType.kt` | Supported device categories |
-| `AddEditEspDialog.kt` | Add/edit ESP module dialog |
-| `AddEditDeviceDialog.kt` | Add/edit device dialog |
-
-## Technologies
-
-- Kotlin
-- Android
-- AndroidX
-- RecyclerView
-- Material Components
-- Kotlin Coroutines
-- OkHttp
-- SharedPreferences
-- JSON
-
-## Future Improvements
-
-Potential extensions for the project include:
-
-- ESP device discovery on the local network
-- Authentication for ESP endpoints
-- HTTPS/TLS support
-- Better network/offline status indicators
-- Configurable polling interval
-- Device groups and rooms
-- Custom device icons
-- Scenes and automation
-- Scheduling
-- MQTT support
-- WebSocket-based real-time state updates
-- Secure remote access
-- Android home-screen widgets
-- Notifications for device state changes
-
 ## License
 
 ```text
